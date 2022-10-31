@@ -1,11 +1,22 @@
-def check_threedigits(number):
-  return number in range(100,1000)
+def check_threedigits(list1):
+
+  three_digit_list = []
+  for n in list1:
+    if n in range(100,1000):
+      three_digit_list.append(n)
+    else:
+      pass
+  return three_digit_list
+  # return False
+  # return number in range(100,1000)
   # pass
   
 ########################################################################################################################
 # Dynamic Functions Practice #1
 # Create a function (all_positives) that returns True if all the values in a list are positive, and False if at least one of the values is negative. Create a list named numbers with positive and negative values.
 
+
+      
 # Don't call the function, you just need to define it.
 
 

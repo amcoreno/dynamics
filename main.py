@@ -5,5 +5,6 @@ from dynamic_functions import check_threedigits
 # method_help()
 # function()
 # returnS()
-result = check_threedigits(658)
+# sum = 526 + 345
+result = check_threedigits([55,99,600, 138, 39, 689, 864, 785, 859])
 print(result)
